@@ -1,0 +1,8 @@
+{
+ "scripts": {
+  "cypress:open_sandbox": "cypress open --browser chrome --env configFile=qa_sandbox"
+ }, 
+  "devDependencies": {
+    "cypress": "^13.7.3"
+  }
+}

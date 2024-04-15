@@ -1,0 +1,11 @@
+{
+    "env": {
+        "url": "https://www.disco.ac/pricing",
+        "liteBasePrice": 10,
+        "plusBasePrice": 15,
+        "plusAddtnlTrackPrice": 6,
+        "proBasePrice": 25,
+        "proAddtnlTrackPrice": 6,
+        "annualDiscount": 0.1
+    }
+}
