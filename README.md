@@ -1,11 +1,5 @@
 ## Disco QA Engineering Assessment
 Disco Automation for Pricing page
-# config/qa_sandbox.json 
-All the environment variables are set.  Multiple json files can be created in config folder for different testing environments (Production, UAT or Staging) 
-# e2e
-The pricing.cy.js is the spec file and a place holder for the test suite
-# pageObjects
-Functions and page object definitions per page
 
 ## Documentation and Approach
 # Approach
@@ -42,3 +36,11 @@ cy.get(this.planTitle())
     .should('contain', '$' + baseCost)
 
 b) Instead of looping through all the number of users and files (but for demo I reduced it to first four tracks size), provide a function that will accept number of users, number of tracks, tier type, payment mode.  Based on the given parameters, it should be able to compute the cost accurately.
+
+## Folders
+# config/qa_sandbox.json 
+All the environment variables are set.  Multiple json files can be created in config folder for different testing environments (Production, UAT or Staging) 
+# e2e
+The pricing.cy.js is the spec file and a place holder for the test suite
+# pageObjects
+Functions and page object definitions per page
